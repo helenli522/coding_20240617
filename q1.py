@@ -55,8 +55,9 @@ def check(s, t):
     print(dp[n])
 
 
-s = "xyz"
-t = "xzyxz"
+# s, t = "abc", "abcbc"
+# s, t = "abc", "acdbc"
+s, t = "xyz", "xzyxz"
 
 if init_check(s, t) == -1:
     print(-1)
